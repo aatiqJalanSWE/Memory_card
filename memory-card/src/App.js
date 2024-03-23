@@ -29,7 +29,7 @@ const App = () => {
   }
 
   const resetGame = () => {
-    alert("Game Over");
+    alert("Your Game Over");
 
     if (score > highestScore) {
       setHighestScore(score);
